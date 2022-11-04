@@ -1,0 +1,20 @@
+# Template
+default: -p html_report -p json_report -p dev --publish-quiet
+
+# TODO: Rever TAGS de Paralelo
+default_parallel: --format pretty -f html --out reports/parallel/report<%= ENV['TEST_ENV_NUMBER'] %>.html
+parallel_json: -f pretty -f json -o reports/parallel/report<%= ENV['TEST_ENV_NUMBER'] %>.json
+parallel:  --format pretty -f html --out reports/features_report.html
+
+# Reports
+html_report: --format pretty -f html -o reports/features_report.html
+json_report: --format pretty -f json -o reports/features_report.json
+
+# Ambientes
+dev: AMBIENTE=dev -t 'not @ignoreDev'
+hlg: AMBIENTE=hlg -t 'not @ignoreHlg'
+prd: AMBIENTE=prd -t 'not @ignorePrd'
+# token_dev: AMBIENTE=dev -t 'not @ignoreDev'
+
+# Debug console
+debug: DEBUG=true

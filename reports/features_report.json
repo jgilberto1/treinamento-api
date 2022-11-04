@@ -1,0 +1,394 @@
+[
+  {
+    "id": "validar-os-endpoints-de-carrinho",
+    "uri": "features/specs/carrinho/carrinho.feature",
+    "keyword": "Funcionalidade",
+    "name": "Validar os endpoints de carrinho",
+    "description": "  Eu como usuário do sistema\n  quero que ao consultar as APIs de Carrinho\n  sejam retornados os valores corretamente.",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@Carrinho",
+        "line": 3
+      }
+    ],
+    "elements": [
+      {
+        "id": "validar-os-endpoints-de-carrinho;validar-a-chamada-do-endpoint-adicionar-item.post",
+        "keyword": "Cenário",
+        "name": "Validar a chamada do endpoint adicionar-item.post",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "ter uma massa configurada do endpoint adicionar-item.post",
+            "line": 11,
+            "match": {
+              "location": "features/steps/carrinho/carrinho_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2840749400
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "chamar o endpoint adicionar-item.post",
+            "line": 12,
+            "match": {
+              "location": "features/steps/carrinho/carrinho_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2613299100
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar o retorno do endpoint adicionar-item.post",
+            "line": 13,
+            "match": {
+              "location": "features/steps/carrinho/carrinho_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7886800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Carrinho",
+            "line": 3
+          },
+          {
+            "name": "@post_adicionar_item",
+            "line": 9
+          },
+          {
+            "name": "@post",
+            "line": 9
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7514000
+            }
+          }
+        ],
+        "after": [
+          {
+            "embeddings": [
+              {
+                "mime_type": "19h36m27s775_POST_evidencia_1",
+                "data": "dGV4dC9wbGFpbg=="
+              }
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3835600
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-os-endpoints-de-carrinho;validar-a-chamada-do-endpoint-consultar-item.get",
+        "keyword": "Cenário",
+        "name": "Validar a chamada do endpoint consultar-item.get",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "chamar o endpoint consultar-item.get",
+            "line": 17,
+            "match": {
+              "location": "features/steps/carrinho/carrinho_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1899084400
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar o retorno do endpoint consultar-item.get",
+            "line": 18,
+            "match": {
+              "location": "features/steps/carrinho/carrinho_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Carrinho",
+            "line": 3
+          },
+          {
+            "name": "@get_consultar_itens",
+            "line": 15
+          },
+          {
+            "name": "@get",
+            "line": 15
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1353300
+            }
+          }
+        ],
+        "after": [
+          {
+            "embeddings": [
+              {
+                "mime_type": "19h36m27s775_POST_evidencia_1",
+                "data": "dGV4dC9wbGFpbg=="
+              },
+              {
+                "mime_type": "19h36m29s692_GET_evidencia_2",
+                "data": "dGV4dC9wbGFpbg=="
+              }
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2572000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-os-endpoints-de-carrinho;validar-a-chamada-do-endpoint-atualizar-item.put",
+        "keyword": "Cenário",
+        "name": "Validar a chamada do endpoint atualizar-item.put",
+        "description": "",
+        "line": 21,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "ter uma massa configurada do endpoint atualizar-item.put",
+            "line": 22,
+            "match": {
+              "location": "features/steps/carrinho/carrinho_steps.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2879456000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "chamar o endpoint atualizar-item.put",
+            "line": 23,
+            "match": {
+              "location": "features/steps/carrinho/carrinho_steps.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2328251000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar o retorno do endpoint atualizar-item.put",
+            "line": 24,
+            "match": {
+              "location": "features/steps/carrinho/carrinho_steps.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Carrinho",
+            "line": 3
+          },
+          {
+            "name": "@put_atualizar_item",
+            "line": 20
+          },
+          {
+            "name": "@put",
+            "line": 20
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1056000
+            }
+          }
+        ],
+        "after": [
+          {
+            "embeddings": [
+              {
+                "mime_type": "19h36m27s775_POST_evidencia_1",
+                "data": "dGV4dC9wbGFpbg=="
+              },
+              {
+                "mime_type": "19h36m29s692_GET_evidencia_2",
+                "data": "dGV4dC9wbGFpbg=="
+              },
+              {
+                "mime_type": "19h36m34s915_PUT_evidencia_3",
+                "data": "dGV4dC9wbGFpbg=="
+              }
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3277600
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-os-endpoints-de-carrinho;validar-a-chamada-do-endpoint-deletar-item.del",
+        "keyword": "Cenário",
+        "name": "Validar a chamada do endpoint deletar-item.del",
+        "description": "",
+        "line": 27,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "ter uma massa configurada do endpoint deletar-item.del",
+            "line": 28,
+            "match": {
+              "location": "features/steps/carrinho/carrinho_steps.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8109606000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "chamar o endpoint deletar-item.del",
+            "line": 29,
+            "match": {
+              "location": "features/steps/carrinho/carrinho_steps.rb:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1415181800
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar o retorno do endpoint deletar-item.del",
+            "line": 30,
+            "match": {
+              "location": "features/steps/carrinho/carrinho_steps.rb:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Carrinho",
+            "line": 3
+          },
+          {
+            "name": "@del_item",
+            "line": 26
+          },
+          {
+            "name": "@delete",
+            "line": 26
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1041000
+            }
+          }
+        ],
+        "after": [
+          {
+            "embeddings": [
+              {
+                "mime_type": "19h36m27s775_POST_evidencia_1",
+                "data": "dGV4dC9wbGFpbg=="
+              },
+              {
+                "mime_type": "19h36m29s692_GET_evidencia_2",
+                "data": "dGV4dC9wbGFpbg=="
+              },
+              {
+                "mime_type": "19h36m34s915_PUT_evidencia_3",
+                "data": "dGV4dC9wbGFpbg=="
+              },
+              {
+                "mime_type": "19h36m39s830_POST_evidencia_4",
+                "data": "dGV4dC9wbGFpbg=="
+              },
+              {
+                "mime_type": "19h36m41s460_GET_evidencia_5",
+                "data": "dGV4dC9wbGFpbg=="
+              },
+              {
+                "mime_type": "19h36m43s038_GET_evidencia_6",
+                "data": "dGV4dC9wbGFpbg=="
+              },
+              {
+                "mime_type": "19h36m44s454_DELETE_evidencia_7",
+                "data": "dGV4dC9wbGFpbg=="
+              }
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4358900
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
