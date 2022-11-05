@@ -1,6 +1,6 @@
-# Automação API - Treinamento
+# Automação API - Drogasil
 
-Projeto de automação de testes para API's
+Projeto de automação de testes para as APIs da Drogasil
 
 ## Instalação do ambiente
 

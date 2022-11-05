@@ -16,8 +16,7 @@ PATH_API_REST ||= ENV['PATH_API_REST']
 PATH_API_REST.nil? ? ENV['PATH_API_REST'] : PATH_API_REST
 
 # Mapeamento dos arquivos de massa
-API_DATA_SKUS ||= YAML.load_file(File.dirname(__FILE__) + '/data/skus.yml')
-API_DATA_USERS ||= YAML.load_file(File.dirname(__FILE__) + '/data/users.yml')
+API_DATA_POST ||= YAML.load_file(File.dirname(__FILE__) + '/data/post.yml')
 
 # Mapeamento dos arquivos de configuracao dos endpoints
 URL ||= YAML.load_file(File.dirname(__FILE__) + '/config/urls.yml')
