@@ -1,6 +1,4 @@
-# Automação API - Drogasil
-
-Projeto de automação de testes para as APIs da Drogasil
+# Automação API - Gw sistemas - Treinamento 
 
 ## Instalação do ambiente
 
